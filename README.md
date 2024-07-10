@@ -121,7 +121,37 @@ deep-in-net.com > deep-in-net.local
 
 
 
-# 
+# Exercise 4
 
+![picture](images/ex04.png)
+
+```
+PC0:
+IP address: 192.168.1.2
+Subnet mask: 255.255.255.252
+```
+
+```
+PC1:
+IP address: 192.168.2.2
+Subnet mask: 255.255.255.252
+```
+
+###### Basically, there is a router here with two connections, each leading to a PC. The connections are set up to enable communication between the PCs.
+
+
+
+
+### Knowledge
+
+1. A router is a networking device that connects different networks together and routes network traffic between them. Its primary role is to determine the best path for data packets to travel from one network to another based on IP addresses. Routers operate at the network layer (Layer 3) of the OSI model.
+
+
+ 2. Difference between Switch and Router
+1. [x] **Switch**: Operates at the data link layer (Layer 2) of the OSI model. It connects devices within the same network and forwards data based on MAC addresses. Switches are used to create local area networks (LANs) where multiple devices can communicate efficiently.
+2. [x] **Router**: Operates at the network layer (Layer 3) of the OSI model. It connects multiple networks together (such as LANs or the Internet) and forwards data packets between them based on IP addresses. Routers enable communication between devices across different networks.
+
+3. A router operates at the network layer (Layer 3) of the OSI model. It uses IP addresses to determine the best path for forwarding data packets between different networks.
+4. The default gateway is a specific router on a network that serves as the entry and exit point for traffic destined for destinations outside the local network. It is typically configured on devices (such as computers or other networked devices) to route traffic to networks beyond their immediate local network. When a device needs to communicate with a device on another network, it sends the data packets to the default gateway, which then forwards them to the appropriate destination.
 
 
