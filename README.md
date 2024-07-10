@@ -1,4 +1,4 @@
-# Excecise 1
+# Exercise 1
 
 
 ![picture](images/ex01.png)
@@ -21,7 +21,7 @@ Subnet mask: 255.255.255.248
 ```
 
 
-# Excercise 2
+# Exercise 2
 
 ![picture](images/ex02.png)
 Here are two network setups:
@@ -66,7 +66,62 @@ Below is a comparison table of switches and hubs:
 
 
 
-# What is OSI?
+## What is OSI?
 
 The **open systems interconnection (OSI)** model is a conceptual model created by the International Organization for Standardization which enables diverse communication systems to communicate using standard protocols. In plain English, the OSI provides a standard for different computer systems to be able to communicate with each other.
+<br>
 ![picture](https://www.imperva.com/learn/wp-content/uploads/sites/13/2020/02/OSI-7-layers.jpg)
+
+
+# Exercise 3
+
+![picture](images/ex03.png)
+
+I have configured a server rack containing four servers dedicated to different services:
+
+- **HTTPS (Secure Hypertext Transfer Protocol):** Handles secure communication over the web.
+- **FTP (File Transfer Protocol):** Manages file transfers between clients and servers.
+- **DNS (Domain Name System):** Resolves domain names to IP addresses.
+- **DHCP (Dynamic Host Configuration Protocol):** Automatically assigns IP addresses to devices on the network. <br>
+
+###### These servers are interconnected through a switch. Additionally, there are six PCs connected to the same switch, obtaining their IP addresses dynamically from the DHCP server.
+
+### Identify the port and OSI model layer for each protocol used:
+
+
+- **HTTPS**: Port 443 (TCP), OSI Layer 7 (Application Layer)
+- **FTP**: Port 20 (TCP) for data transfer, Port 21 (TCP) for control, OSI Layer 7 (Application Layer)
+- **DNS**: Port 53 (TCP and UDP), OSI Layer 7 (Application Layer)
+
+###  DNS Mapping
+
+
+```
+deep-in-net.local > 192.168.1.99
+deep-in-net.com > deep-in-net.local
+```
+
+###### 192.168.1.99 is HTTPS Server IP
+
+![picture](images/ex03a.png)
+<br>
+- **CNAME (Canonical Name):** Used in DNS to create aliases for domain names. Allows mapping multiple domain names to a single primary domain. Example: "www.example.com" can point to "example.com".
+- **A Record (Address Record):** Fundamental DNS records mapping domain names to IP addresses. Converts human-readable domain names (like example.com) to numerical IP addresses (such as 192.168.1.1) used by computers on the Internet.
+
+### Into Browser
+
+![picture](https://01.kood.tech/git/root/public/media/branch/master/subjects/devops/deep-in-net/pictures/ex03-dns.jpg)
+
+
+### Accessing to FTP server
+
+
+![picture](https://01.kood.tech/git/root/public/media/branch/master/subjects/devops/deep-in-net/pictures/ex03-ftp.jpg)
+
+
+
+
+# 
+
+
+
