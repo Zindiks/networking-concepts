@@ -1,4 +1,6 @@
 # DEEP-IN-NET
+
+TASK IS [HERE](https://github.com/01-edu/public/tree/master/subjects/devops/deep-in-net)
 ## Overview
 This repository contains Cisco Packet Tracer (.pkt) files for a series of networking exercises aimed at exploring fundamental networking concepts and tools using Cisco Packet Tracer.
 
